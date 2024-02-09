@@ -1,0 +1,56 @@
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  height: min-content;
+  margin-top: 0;
+}
+
+#navg {
+  display: flex;
+}
+
+#navg > a {
+  text-decoration: none;
+  padding: 8px;
+}
+
+#navg:hover {
+  color: black;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  outline: none;
+  border-radius: 8px;
+  border: solid black;
+  padding: 8px 8px;
+}
+
+.input-field:focus {
+  border: solid blue;
+}
+
+.btn {
+  background-color: olive;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkolivegreen;
+}
+
+.btn:active {
+  background-color: rgb(35, 47, 15);
+  transform: translateY(4px);
+}
